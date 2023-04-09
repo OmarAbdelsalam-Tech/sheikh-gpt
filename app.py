@@ -1,8 +1,8 @@
 import streamlit as st
 import openai
 
-openai_api_key = st.secrets["OPENAI_API_KEY"]
-openai.api_key = openai_api_key
+openai.api_key = st.secrets["openai"]["api_key"]
+
 
 # Replace the path with your own Islamic-related background image
 background_image_path = "sheikh.jpg"
