@@ -11,8 +11,8 @@ background_image_path = "Sheikh.jpg"
 def main():
     st.set_page_config(page_title="Sheikh-GPT", page_icon=":guardsman:", layout="wide")
     st.title("Sheikh-GPT")
-    st.header("Try asking for Hadith evedince!")
-    st.header(" By: Omar Abdelsalam")
+    st.subheader("Try asking for Hadith evedince!")
+    st.subheader(" By: Omar Abdelsalam")
 
     # Set up the layout
     col1, col2 = st.columns([2, 1])
