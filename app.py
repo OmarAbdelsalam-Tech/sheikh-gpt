@@ -1,7 +1,12 @@
 import streamlit as st
 import openai
+import requests
 from secrets_1 import API_KEY
+url=''
+response= requests.get(url)
 
+with open('secrets_1.py', 'wb') as f:
+       f.write(response.content)
 
 openai.api_key = API_KEY
 
