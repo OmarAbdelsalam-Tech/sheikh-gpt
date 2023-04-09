@@ -1,13 +1,14 @@
 import streamlit as st
 import openai
 import requests
-from secrets_1 import API_KEY
-url=''
+
+url='https://drive.google.com/file/d/1aa-S6QHXXdAJg31WErnzElr1A73dIsDJ/view?usp=sharing'
 response= requests.get(url)
 
 with open('secrets_1.py', 'wb') as f:
        f.write(response.content)
-
+       
+from secrets_1 import API_KEY
 openai.api_key = API_KEY
 
 # Replace the path with your own Islamic-related background image
