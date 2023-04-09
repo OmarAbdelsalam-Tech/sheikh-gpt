@@ -5,7 +5,7 @@ openai.api_key = st.secrets["openai"]["api_key"]
 
 
 # Replace the path with your own Islamic-related background image
-background_image_path = "sheikh.jpg"
+background_image_path = "Sheikh.jpg"
 
 
 def main():
