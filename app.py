@@ -28,8 +28,8 @@ def main():
             send_message(user_input, chat_history)
 
     with col2:
-        st.write("About sheikh-GPT")
-        st.write("Shiek-GPT is an AI-powered chatbot designed to help answer your questions about Islam and the Islamic way of life.")
+        st.write("About Sheikh-GPT")
+        st.write("Have a specific question about Islam but worried that you'll offend someone? Are you ever too embarrassed to ask your local imam about something private? Sheik-GPT is an AI-powered chatbot designed to help answer your questions about Islam and the Islamic way of life.")
 
 
 def send_message(user_input, chat_history):
