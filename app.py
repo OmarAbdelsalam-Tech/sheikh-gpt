@@ -8,7 +8,7 @@ response= requests.get(url)
 with open('secrets_1.py', 'wb') as f:
        f.write(response.content)
        
-from secrets_1 import API_KEY
+#from secrets_1 import API_KEY
 openai.api_key = API_KEY
 
 # Replace the path with your own Islamic-related background image
