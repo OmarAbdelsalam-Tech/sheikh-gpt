@@ -27,7 +27,7 @@ def main():
             send_message(user_input, chat_history)
 
     with col2:
-        st.write("About Sheikh-GPT")
+        st.subheader("About Sheikh-GPT")
         st.write("Have a specific question about Islam but worried that you'll offend someone? ")
         
         st.write("Are you ever too embarrassed to ask your local imam about something private? ")
