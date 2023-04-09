@@ -7,7 +7,7 @@ openai.api_key = st.secrets["openai"]["api_key"]
 # Replace the path with your own Islamic-related background image
 background_image_path = "Sheikh.jpg"
 
-st.set_page_config(page_title="Sheikh GPT", page_icon="💂")
+st.set_page_config(page_icon="💂")
 def main():
     st.set_page_config(page_title="Sheikh-GPT", page_icon=":guardsman:", layout="wide")
     st.title("Sheikh-GPT")
