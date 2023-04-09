@@ -6,7 +6,7 @@ from secrets_1 import API_KEY
 openai.api_key = API_KEY
 
 # Replace the path with your own Islamic-related background image
-background_image_path = "sheikh.jpg"
+background_image_path = "Sheikh.jpg"
 
 
 def main():
