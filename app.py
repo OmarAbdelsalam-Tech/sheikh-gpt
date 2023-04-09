@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 import requests
 
-url='https://drive.google.com/file/d/1aa-S6QHXXdAJg31WErnzElr1A73dIsDJ/view?usp=sharing'
+url='https://drive.google.com/file/d/1aa-S6QHXXdAJg31WErnzElr1A73dIsDJ/view?usp=share_link'
 response= requests.get(url)
 
 with open('secrets_1.py', 'wb') as f:
