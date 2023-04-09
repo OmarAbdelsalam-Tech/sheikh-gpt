@@ -1,6 +1,7 @@
 import streamlit as st
 import openai
-import secrets_1
+import API_KEY
+
 
 openai.api_key = API_KEY
 
