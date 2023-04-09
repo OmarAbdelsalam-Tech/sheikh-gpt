@@ -1,11 +1,7 @@
 import streamlit as st
 import openai
-import os
-from dotenv import load_dotenv
 
-load_dotenv()
-openai_api_key = os.getenv('OPENAI_API_KEY')
-
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 openai.api_key = openai_api_key
 
 # Replace the path with your own Islamic-related background image
